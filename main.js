@@ -15,3 +15,8 @@ function updateClock() {
     setTimeout(updateClock, 1000);
 }
 updateClock(); 
+
+
+$("button").click(function(){
+  alert("We'll notify you when we are done!");
+});

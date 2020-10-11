@@ -4,6 +4,17 @@ body {
 	background: #f2f6e9;
 }
 
+
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
 /*--- navigation bar ---*/
 
 .navbar {
@@ -28,13 +39,23 @@ body {
 	justify-content: flex-end;
 }
 
+
+
 /*--- header ---*/
 
 .header {
 	background-image: url('images/header-background.jpg');
-	background-size: cover;
-	background-position: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+	
+	
+/*	background-size: cover;
+	background-position: center;*/
 	position: relative;
+	
 }
 
 .overlay {
